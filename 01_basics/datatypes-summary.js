@@ -34,3 +34,27 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
+// ++++++++++++++++++++ Stack and Heap +++++++++++++
+
+//stack
+
+let myname = "Mudit"
+let anothername = myname
+anothername = "Ashok"
+
+console.log(anothername);        //Ashok     // becuse it primitive and is stack
+console.log(myname);               // Mudit 
+
+// now heap
+
+let userOne ={
+    email:"mudit@gmail.com",
+    upi:"user@ici"
+}
+
+let userTwo = userOne
+userTwo.email = "Ashok@gmail.com"
+
+console.log(userOne.email);   // will give Ashok@gmail.com
+console.log(userTwo.email);   // will alos give Ashok@gmail.com    // because it is heap 
+
