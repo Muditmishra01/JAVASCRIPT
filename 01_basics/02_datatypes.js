@@ -7,12 +7,12 @@ console.log(3
     +
      3) // bad readibility , bad way 
 
-console.log("Hitesh")
+console.log("Mudit")
 
 
-let name = "hitesh"
+let name = "mudit"
 let age = 18
-let isLoggedIn = false
+let isLoggedIn = false      
 let state;
 
 // number => 2 to power 53
