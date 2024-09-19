@@ -54,7 +54,7 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
-handleObject({
+handleObject({             // we can directly pass the whole object/ array in function 
     username: "sam",
     price: 399
 })
@@ -66,4 +66,4 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnSecondValue([200, 400, 500, 1000])); // can also pass direct aray in it
