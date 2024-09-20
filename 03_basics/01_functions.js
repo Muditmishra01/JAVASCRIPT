@@ -59,7 +59,7 @@ handleObject({             // we can directly pass the whole object/ array in fu
     price: 399
 })
 
-const myNewArray = [200, 400, 100, 600,9000]
+const myNewArray = [200, 100, 600,9000]
 
 function returnSecondValue(getArray){
     return getArray[1]
