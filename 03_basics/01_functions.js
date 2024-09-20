@@ -59,11 +59,11 @@ handleObject({             // we can directly pass the whole object/ array in fu
     price: 399
 })
 
-const myNewArray = [200, 400, 100, 600]
+const myNewArray = [200, 400, 100, 600,9000]
 
 function returnSecondValue(getArray){
     return getArray[1]
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000])); // can also pass direct aray in it
+console.log(returnSecondValue([200, 400, 500, 1000,3000])); // can also pass direct aray in it
