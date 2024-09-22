@@ -40,7 +40,7 @@ const user = {
 // it will give the empty {} 
 
 //3) but if we are using (this) in the console of google then it will give many things,
-//perform it on the console and it will give window ,and what we can do in it
+//perform it on the console and it will give window object ,and what we can do in it
 
 //3) we can access the elements through (this), if we are inside objects , 
 // but (this) cannot the access element if it is inside the functions,(undefined)
@@ -52,7 +52,7 @@ const chai = () => {
     let username = "mudit"
     console.log(this);
 }
-//chai()
+chai()
 
 // const addtwo = (num1,num2) => {
 //     return num1 + num2

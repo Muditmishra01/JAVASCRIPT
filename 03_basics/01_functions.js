@@ -54,7 +54,7 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
-handleObject({             // we can directly pass the whole object/ array in function 
+handleObject({             // we can directly pass the whole object or array in function 
     username: "sam",
     price: 399
 })
