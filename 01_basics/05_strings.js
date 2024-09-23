@@ -48,4 +48,4 @@ let result = str.match(/quick/g);   // will give list of all matches
 
 console.log(result);
 
-//without  global g wil  give the first match
+//without global g wil  give the first match
