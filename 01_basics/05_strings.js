@@ -19,8 +19,8 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
-console.log(anotherString);
+const anotherString = gameName.slice(-12, 4)
+console.log(anotherString);         // important
 
 const newStringOne = "   mudit    "
 console.log(newStringOne);
@@ -33,3 +33,19 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sudeep'))
 
 console.log(gameName.split('-'));
+
+
+//EXTRA FUNCTIONS
+// 1) string.prototype.localecompare()
+
+// Case-insensitive comparison
+console.log("apple".localeCompare("Apple", undefined, { sensitivity:"base" })); // 0 (ignores case)
+
+//2) string prototype.match()
+
+let str = "The quick brown fox jumps over the quick but lazy dog";
+let result = str.match(/quick/g);   // will give list of all matches 
+
+console.log(result);
+
+//without  global g wil  give the first match
