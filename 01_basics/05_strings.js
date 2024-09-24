@@ -49,3 +49,11 @@ let result = str.match(/quick/g);   // will give list of all matches
 console.log(result);
 
 //without global g wil  give the first match
+
+//3) charAt
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const index = 4;
+
+console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
+// Expected output: "The character at index 4 is q"
