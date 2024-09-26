@@ -9,3 +9,8 @@ const myObj = {       // for object we use for in loop
 for (const key in myObj) {
    console.log(key)
 }
+for (const key in myObj) {
+    console.log(`${key} shortcut is for ${myObj[key]}`)
+ }
+
+
