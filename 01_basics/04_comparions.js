@@ -16,6 +16,6 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);  // will give false in false 
 
-// === 
+// ===    
 
 console.log("2" === 2);       // strict check, it not only checks the value , but also the datatypes

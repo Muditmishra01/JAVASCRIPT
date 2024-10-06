@@ -26,5 +26,5 @@ let state;
 
 // object  -> will discuss later in future 
 
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof undefined); // ----->   undefined
+console.log(typeof null); // ---->   object
