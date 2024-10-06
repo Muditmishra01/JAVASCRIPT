@@ -1,14 +1,14 @@
 const name = "mudit"
 const repoCount = 50
 
-// console.log(name + repoCount + " Value");
+ //console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('mudit-hc-com')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+//console.log(gameName[0]);
+//console.log(gameName.__proto__);
 
 
 // console.log(gameName.length);
@@ -19,8 +19,11 @@ console.log(gameName.indexOf('t'));
 const newString = gameName.substring(0, 4)
 console.log(newString);
 
+
 const anotherString = gameName.slice(-12, 4)
 console.log(anotherString);         // important
+
+
 
 const newStringOne = "   mudit    "
 console.log(newStringOne);
@@ -39,16 +42,16 @@ console.log(gameName.split('-'));
 // 1) string.prototype.localecompare()
 
 // Case-insensitive comparison
-console.log("apple".localeCompare("Apple", undefined, { sensitivity:"base" })); // 0 (ignores case)
+console.log("apple".localeCompare("Apple", undefined, { sensitivity:"base" })); // 0 (ignores case)   // 0 means no difference and -1 means difference
 
 //2) string prototype.match()
 
 let str = "The quick brown fox jumps over the quick but lazy dog";
-let result = str.match(/quick/g);   // will give list of all matches 
+let result = str.match(/quick/g);   // will give list of all matches // kitni baar aaya hai 
 
 console.log(result);
 
-//without global g wil  give the first match
+//without global g will  give the first match without group 
 
 //3) charAt
 const sentence = 'The quick brown fox jumps over the lazy dog.';
