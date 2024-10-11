@@ -3,13 +3,15 @@
 
 // object literals
 
-const mySym = Symbol("key1")
+const mySym = Symbol("key1")           //give unique id 
+//console.log(typeof mySym);           // symbol           
+
 
 
 const JsUser = {
     name: "Mudit",
-    "full name": "Mudit Mishra",
-    [mySym]: "mykey1",
+    "full name": "Mudit Mishra",      // [] for outputl also
+    [mySym]: "mykey1",                  //[] for symbol
     age: 18,
     location: "lucknow",
     email: "mudit@google.com",
@@ -18,10 +20,11 @@ const JsUser = {
 }
 
 // console.log(JsUser.email)
-// console.log(JsUser["email"])
+//  console.log(JsUser["email"])
 // console.log(JsUser["full name"])
- console.log(JsUser[mySym])
- //console.log(typeof JsUser.mySym)
+// //console.log(JsUser.full name)          //error
+//  console.log(JsUser[mySym])
+//  console.log(typeof JsUser.mySym)       //undefined
 
 
 JsUser.email = "mudit@chatgpt.com"
